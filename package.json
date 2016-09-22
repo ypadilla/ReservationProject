@@ -1,0 +1,25 @@
+{
+  "name": "reservation_project",
+  "version": "1.0.0",
+  "description": "class assignment 9/22",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ypadilla/ReservationProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ypadilla/ReservationProject/issues"
+  },
+  "homepage": "https://github.com/ypadilla/ReservationProject#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  }
+}
