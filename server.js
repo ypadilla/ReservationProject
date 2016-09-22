@@ -20,6 +20,29 @@ require('./app/routing/html-routes.js')(app);
 
 // Starts the server to begin listening
 // =============================================================
+
+
+
+var customers = [{
+	name: 'John Smith',
+	phone: '4076948323',
+	email: 'johnsmith@testfakeemail.com',
+	uniqueId: 1
+	
+}, {
+	name: 'Jane Doe',
+	phone: '4076786534',
+	email: 'janedoe@testfakeemail.com',
+	uniqueId: 2
+	
+}];
+
+
+
+
 app.listen(PORT, function(){
     console.log('App listening on PORT ' + PORT);
-})
+});
+
+
+
