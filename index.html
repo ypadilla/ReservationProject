@@ -7,32 +7,36 @@
     <title>Reservations</title>
     <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity=
     "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
-    <!-- <link href='https://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'> -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+    <link href="main.css" rel="stylesheet">
 </head>
 <body>
+<div class = "container" id = "main">
     <div class="container">
         <div class="jumbotron">
-            <h1>Yavis Crab Shack</h1><span aria-hidden="true" class="glyphicon glyphicon-road"></span>
+            <h1>Crab Shack</h1>
             <p>Come dine with us tonight!</p>
-            <p><a class="btn btn-primary btn-lg" href="home.html" id="" role="button">View Tables</a></p>
-            <p><a class="btn btn-primary btn-lg" href="table.html" id="" role="button">Home</a></p>
+            <a class="btn btn-primary btn-lg" href="home.html" id="ghost" role="button">View Tables <span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+            <a class="btn btn-primary btn-lg" href="table.html" id="ghost2" role="button">Home <span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
         </div>
     </div>
     <div class="container">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <span aria-hidden="true" class="glyphicon glyphicon-search"></span> Please enter your info
+                <span aria-hidden="true" class="glyphicon glyphicon-pencil"></span> Please enter your info
             </div>
             <div class="panel-body">
                 <p>Name</p><input class="form-control" id="nameInput" type="text">
                 <p>Phone Number</p><input class="form-control" id="phoneInput" type="text">
                 <p>Email Address</p><input class="form-control" id="emailInput" type="text">
-                <p>Unique ID</p><input class="form-control" id="uniqueID" type="text"> <button class="btn btn-default" id="submitBtn" type="button"><span aria-hidden=
-                "true" class="glyphicon glyphicon-send"></span> Submit</button>
+                <p>Unique ID</p><input class="form-control" id="uniqueID" type="text"> 
+                <button class="btn btn-default" id="submitBtn" type="button"><span aria-hidden=
+                "true" class="glyphicon glyphicon-send"></span>  Submit!</button>
             </div>
         </div>
     </div>
+</div>  
     <script src="assets/javascript/app.js">
     </script>
 </body>

@@ -1,0 +1,31 @@
+
+.jumbotron{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+.panel-default{
+  font-family: 'Amatic SC', cursive;\
+  
+}
+.jumbotron h1{
+  font-size: 100px;
+  color: white;
+}
+#ghost, #ghost2{
+  display: inline-block;
+}
+#submitBtn{
+  margin-top: 10px;
+}
+.jumbotron{
+  margin-bottom: 2px;
+    background-size: cover;
+  /*background-image: url(wood.jpg);*/
+  background-color: #cd890a;
+
+}
+
+.panel-default, .panel-default>.panel-heading{
+  background-color: #cd890a;
+}
+
